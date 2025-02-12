@@ -17,8 +17,8 @@ import com.appodeal.ads.MrecCallbacks;
 import com.appodeal.ads.RewardedVideoCallbacks;
 import com.appodeal.ads.inapp.InAppPurchase;
 import com.appodeal.ads.inapp.InAppPurchaseValidateCallback;
-import com.appodeal.ads.regulator.CCPAUserConsent;
-import com.appodeal.ads.regulator.GDPRUserConsent;
+// import com.appodeal.ads.regulator.CCPAUserConsent;
+// import com.appodeal.ads.regulator.GDPRUserConsent;
 import com.appodeal.ads.service.ServiceError;
 import com.appodeal.ads.utils.Log;
 
@@ -118,7 +118,7 @@ public class AppodealPlugin extends GodotPlugin {
     public boolean isInitialized(int adType) {
         return Appodeal.isInitialized(getAndroidAdType(adType));
     }
-
+    /*
     @UsedByGodot
     public void updateGDPRUserConsent(int consent) {
         switch (consent) {
@@ -148,7 +148,8 @@ public class AppodealPlugin extends GodotPlugin {
                 Appodeal.updateCCPAUserConsent(CCPAUserConsent.Unknown);
         }
     }
-
+    */
+   
     @UsedByGodot
     public boolean isAutoCacheEnabled(int adType) {
         return Appodeal.isAutoCacheEnabled(getAndroidAdType(adType));
