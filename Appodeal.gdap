@@ -6,5 +6,5 @@ binary="appodeal/Appodeal-2.0.0-release.aar"
 
 [dependencies]
 
-remote=["com.appodeal.ads:sdk:3.4.1.+"]
+remote=["com.appodeal.ads:sdk:3.8.0.+"]
 custom_maven_repos=["https://artifactory.appodeal.com/appodeal/"]

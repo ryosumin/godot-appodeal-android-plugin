@@ -11,7 +11,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        minSdk 21
+        minSdk 23
         targetSdk 33
         versionCode libraryVersionCode
         versionName libraryVersionName
@@ -38,7 +38,7 @@ android {
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.5.1'
-    compileOnly 'com.appodeal.ads:sdk:3.4.1.+'
+    compileOnly 'com.appodeal.ads:sdk:3.8.0.+'
     compileOnly 'org.godotengine:godot:3.5.2.stable'
     //compileOnly fileTree(dir:"libs", include:["godot-lib.3.5.3.stable.release.aar"])
 }
