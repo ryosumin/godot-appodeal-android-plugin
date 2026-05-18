@@ -2,9 +2,10 @@
 
 name="Appodeal"
 binary_type="local"
-binary="appodeal/Appodeal-2.0.0-release.aar"
+binary="Appodeal-2.0.0-release.aar"
 
 [dependencies]
 
-remote=["com.appodeal.ads:sdk:3.8.0.+"]
-custom_maven_repos=["https://artifactory.appodeal.com/appodeal/"]
+local=[]
+remote=["com.appodeal.ads:sdk:3.12.0.+"]
+custom_maven_repos=["https://artifactory.appodeal.com/appodeal","https://artifact.bytedance.com/repository/pangle"]
