@@ -8,11 +8,11 @@ ext.libraryVersionName = "2.0.0"
 
 android {
     namespace 'com.dnhnd.godotappodeal'
-    compileSdk 33
+    compileSdk 36
 
     defaultConfig {
         minSdk 23
-        targetSdk 33
+        targetSdk 35
         versionCode libraryVersionCode
         versionName libraryVersionName
     }
@@ -38,7 +38,7 @@ android {
 
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.5.1'
-    compileOnly 'com.appodeal.ads:sdk:3.8.0.+'
-    compileOnly 'org.godotengine:godot:3.5.2.stable'
+    implementation 'com.appodeal.ads:sdk:3.12.0.+'
+    compileOnly 'org.godotengine:godot:3.6.2.stable'
     //compileOnly fileTree(dir:"libs", include:["godot-lib.3.5.3.stable.release.aar"])
 }
